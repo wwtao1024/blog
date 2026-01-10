@@ -6,6 +6,9 @@ hero:
   name: ""
   text: "Forge Code"
   tagline: 从框架整合到工程优化，探索技术融合的更多可能。
+  image:
+    src: /logo.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
