@@ -13,12 +13,13 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/blog/favicon.ico" }]],
   // 显示文章最后更新时间
   lastUpdated: true,
-  // 全局搜索
-  search: {
-    provider: "local",
-  },
   themeConfig: {
+    // logo设置
     logo: "/logo.png",
+    // 全局搜索
+    search: {
+      provider: "local",
+    },
     // 导航链接
     nav: [
       { text: "Home", link: "/" },
