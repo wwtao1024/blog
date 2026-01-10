@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Forge Code",
-  description: "从框架整合到工程优化，探索技术融合的更多可能。",
+  description: "Based on vitepress's blog",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
