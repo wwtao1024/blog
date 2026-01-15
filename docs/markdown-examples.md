@@ -1,5 +1,3 @@
-# hello
-
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
@@ -10,28 +8,37 @@ VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shi
 
 **Input**
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+```sh
+curl https://api.github.com/repos/vuejs/vitepress/commits
 ```
-````
 
 **Output**
 
-```js{4}
+```js
 export default {
-  data () {
+  data() {
     return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+      msg: "Highlighted!",
+    };
+  },
+};
+```
+
+```ts
+// .vitepress/config.mts
+import { defineConfig } from "vitepress";
+import { defineTeekConfig } from "vitepress-theme-teek/config";
+
+// Teek 主题配置
+const teekConfig = defineTeekConfig({
+  // ...
+});
+
+// VitePress 配置
+export default defineConfig({
+  extends: teekConfig,
+  // ...
+});
 ```
 
 ## Custom Containers

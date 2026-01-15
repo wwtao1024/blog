@@ -1,9 +1,12 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title:
+titleTemplate:
+description:
 
 hero:
-  name: "你好啊"
+  name: "Forge Code"
   text: "Forge Code"
   tagline: 从框架整合到工程优化，探索技术融合的更多可能。
   image:
@@ -11,10 +14,10 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown 示例
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API 示例
       link: /api-examples
 
 features:
