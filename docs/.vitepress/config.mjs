@@ -13,7 +13,7 @@ const teekConfig = defineTeekConfig({
     easing: "ease-in", // 缓动函数
   },
   codeBlock: {
-    enabled: false, // 是否启用新版代码块
+    enabled: true, // 是否启用新版代码块
     collapseHeight: 700, // 超出高度后自动折叠，设置 true 则默认折叠，false 则默认不折叠
     overlay: true, // 代码块底部是否显示展开/折叠遮罩层
     overlayHeight: 400, // 当出现遮罩层时，指定代码块显示高度，当 overlay 为 true 时生效
